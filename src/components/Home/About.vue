@@ -81,7 +81,7 @@ import { ref } from 'vue'
 import CommonButton from "/src/components/Shared/Buttom.vue"
 
 import info1 from "/src/assets/icon/phone-call.png"
-import info2 from "//src/assets/icon/mail.png"
+import info2 from "/src/assets/icon/mail.png"
 import info3 from "/src/assets/icon/location.png"
 import info4 from "/src/assets/icon/Vector.png"
 import info5 from "/src/assets/icon/medal.png"

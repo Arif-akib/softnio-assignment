@@ -34,7 +34,7 @@
 import img1 from "/src/assets/icon/clock.png"
 import img2 from "/src/assets/icon/call.png"
 import img3 from "/src/assets/icon/mail2.png"
-import img4 from "/src/assets/icon/location2"
+import img4 from "/src/assets/icon/location2.png"
 const datas = [
     {
         img: img1,
