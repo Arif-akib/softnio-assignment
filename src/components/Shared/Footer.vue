@@ -31,27 +31,31 @@
     </div>
 </template>
 <script setup>
+import img1 from "/src/assets/icon/clock.png"
+import img2 from "/src/assets/icon/call.png"
+import img3 from "/src/assets/icon/mail2.png"
+import img4 from "/src/assets/icon/location2"
 const datas = [
     {
-        img: '/src/assets/icon/clock.png',
+        img: img1,
         heading: "Opening hours",
         text: "Monday - Sunday",
         sub:"9:00 AM to 11:30 PM"
     },
     {
-        img: '/src/assets/icon/call.png',
+        img: img2,
         heading: "LET'S TALK",
         text: "Phone: 1-800 - 222 - 4545",
         sub:"Fax: 1 - 800 - 222 - 4545"
     },
     {
-        img: '/src/assets/icon/mail2.png',
+        img: img3,
         heading: "BOOK A TABLE",
         text: "Email: demo@website.com",
         sub:"Support: support@website.com"
     },
     {
-        img: '/src/assets/icon/location2.png',
+        img: img4,
         heading: "Our Address",
         text: "123 Stree New York City , United",
         sub:"States Of America."

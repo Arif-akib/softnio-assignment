@@ -79,36 +79,44 @@
 <script setup>
 import { ref } from 'vue'
 import CommonButton from "/src/components/Shared/Buttom.vue"
+
+import info1 from "/src/assets/icon/phone-call.png"
+import info2 from "//src/assets/icon/mail.png"
+import info3 from "/src/assets/icon/location.png"
+import info4 from "/src/assets/icon/Vector.png"
+import info5 from "/src/assets/icon/medal.png"
+import info6 from "/src/assets/icon/bag.png"
+
 const aboutButton = ref('about')
 
 const infos = [
     {
-        icon: '/src/assets/icon/phone-call.png',
+        icon: info1,
         lable:'+88 3426 739 485'
     },
 
     {
-        icon: '/src/assets/icon/mail.png',
+        icon: info2,
         lable:'demo@website.com'
     },
     {
-        icon: '/src/assets/icon/location.png',
+        icon: info3,
         lable:'123 Stree New York City , United States Of America.'
     },
 ]
 const CommonInfos = [
     {
-        icon: '/src/assets/icon/Vector.png',
+        icon: info4,
         lable: 'fast Delivery',
         lable2:"Within 30 minutes"
     },
     {
-        icon: '/src/assets/icon/medal.png',
+        icon: info5,
         lable: 'Absolute dining',
         lable2:"Best buffet restaurant"
     },
     {
-        icon: '/src/assets/icon/bag.png',
+        icon: info6,
         lable: 'Pickup Delivery',
         lable2:"Grab your food order"
     },

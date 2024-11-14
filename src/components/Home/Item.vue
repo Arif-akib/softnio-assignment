@@ -66,6 +66,11 @@ import "swiper/css/navigation";
 import NavPrev from "/src/components/utils/prevbutton.vue";
 import NavNext from "/src/components/utils/nextButton.vue";
 
+import img1 from "/src/assets/item/burger.png"
+import img2 from "/src/assets/item/pizza.png"
+import img3 from "/src/assets/item/french-fries.png"
+import img4 from "/src/assets/item/fried-shrimp.png"
+
 import { ref } from "vue";
 
 import {
@@ -81,11 +86,11 @@ const breakpoints = ref({
     spaceBetween: 20,
   },
   1024: {
-    slidesPerView: 3.5,
+    slidesPerView: 3,
     spaceBetween: 20,
   },
   1436: {
-    slidesPerView: 4.5,
+    slidesPerView: 4,
     spaceBetween: 20,
   },
 });
@@ -97,42 +102,42 @@ const onSwiper = (swiper) => {
 
 const items = [
   {
-    img: "/src/assets/item/burger.png",
+    img: img1,
     title: "vegetables burger",
     lable: "Barbecue Italian cuisine pizza",
   },
   {
-    img: "/src/assets/item/pizza.png",
+    img: img2,
     title: "Spacial Pizza",
     lable: "Barbecue Italian cuisine pizza",
   },
   {
-    img: "/src/assets/item/french-fries.png",
+    img: img3,
     title: "Spacial French fries ",
     lable: "Barbecue Italian cuisine",
   },
   {
-    img: "/src/assets/item/fried-shrimp.png",
+    img: img4,
     title: "Cuisine Chicken",
     lable: "Japanese Cuisine Chicken",
   },
   {
-    img: "/src/assets/item/burger.png",
+    img: img1,
     title: "vegetables burger",
     lable: "Barbecue Italian cuisine pizza",
   },
   {
-    img: "/src/assets/item/pizza.png",
+    img: img2,
     title: "Spacial Pizza",
     lable: "Barbecue Italian cuisine pizza",
   },
   {
-    img: "/src/assets/item/french-fries.png",
+    img: img3,
     title: "Spacial French fries ",
     lable: "Barbecue Italian cuisine",
   },
   {
-    img: "/src/assets/item/fried-shrimp.png",
+    img: img4,
     title: "Cuisine Chicken",
     lable: "Japanese Cuisine Chicken",
   },
